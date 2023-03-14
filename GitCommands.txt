@@ -15,7 +15,24 @@ All Git Commands:-
 13) git clone repourl ownreponame = to clone a git repo and change its name
 14) git config <global/ocal> core.autocrlf true/false = to change crlf
 15) git config core.autocrlf = to show crf
-16) git log | less = to the log in list mode
+16) git log | less = to show the log in list mode
 17) git remote set-url origin https://github.com/username/reponame.git = to open remote repo
 18) git push origin master = to push the changes to master or sync the changes
+19) git diff = to cmpare working directory with staging area
+20) git diff --staged = to compare staging area with last commit
+21) git commit -a -m "Commit" = to direct commit the tracked file without staging
+22) git rm filename = to remove a file and staged it
+23) git mv oldname newname = to rename a file and staged it
+24) git rm --cached filename = to untrack a tracked file
+25) git log -p = to show the details of every commits
+26) git log -p -n(n=1,,3,4...) = to show the details of n numbr of commits
+27) git log --stat = to show the details in short of every commits
+28) git log --pretty=oneline(online/short/full) = to show the all commits in online
+29) git log -since=2.days(days/months/weeks/years) = to show the log 2 days before
+30) git log --pretty=format:"%h --%an" = to show the log in a specific format
+31) git commit --amend = to change/amend a commit in vim
+32) git restore --staged filename = to unstage a staged file
+33) git restore filename = to discard the changes in the file
+34) git checkout -- filename = to restore unstaged the file
+35) git checkout -f = to discard all changes of all unstaged files
 
