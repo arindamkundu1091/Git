@@ -11,3 +11,11 @@ All Git Commands:-
 9) git add filename = to add/staged a specific file using filename
 10) git commit -m "commit details" = to add commit and finalize to git directory
 11) git log = to show the logs and commits
+12) rm -rf .git = to delete all .git files
+13) git clone repourl ownreponame = to clone a git repo and change its name
+14) git config <global/ocal> core.autocrlf true/false = to change crlf
+15) git config core.autocrlf = to show crf
+16) git log | less = to the log in list mode
+17) git remote set-url origin https://github.com/username/reponame.git = to open remote repo
+18) git push origin master = to push the changes to master or sync the changes
+
