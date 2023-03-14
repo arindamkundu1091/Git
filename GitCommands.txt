@@ -1,0 +1,13 @@
+All Git Commands:-
+
+1) git config --global user.name "username" = to configure user name
+2) git config --global user.email "useremailid" = to configure user email
+3) git config --list = to show the user details list
+4) git config user.name = to show the user name
+5) git config user.email = to show the user email
+6) git status = to show the repository status
+7) git init = to initialize git repository
+8) git add --a = to add/staged all untracked files
+9) git add filename = to add/staged a specific file using filename
+10) git commit -m "commit details" = to add commit and finalize to git directory
+11) git log = to show the logs and commits
