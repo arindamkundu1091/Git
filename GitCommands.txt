@@ -35,4 +35,21 @@ All Git Commands:-
 33) git restore filename = to discard the changes in the file
 34) git checkout -- filename = to restore unstaged the file
 35) git checkout -f = to discard all changes of all unstaged files
-
+36) git remote -v = to show the fetch and push origin
+37) eval $(ssh-agent -s) = to run the ssh-agent pid
+38) ssh-keygen -t ed25519 -C "Your_email@gmail.com" = to generate ssh key
+39) ssh-add ~/.ssh/id_ed25519 = to add ssh key
+40) tail ~/.ssh/id_25519.pub = to show the ssh key
+41) git config --global alias.cmd 'command' = to configure new short command
+42) git checkout -b branchname = to create a new branch
+43) git checkout branchname = to switch branch to branchname
+44) git branch = to show the all branches
+45) git merge branchname = to merge branchname to master
+46) git branch -v = to show the all branches last commit hash and msg
+47) git branch --merged = to show all merged branches
+48) git branch --no-merged = to show all no merged branches
+49) git branch -d branchname = to delete branchname
+50) git branch -D branchname = to delete branchname without any error
+51) git push origin branchname:newbranchname = to push branchname as a new newbranchname
+52) git push -d origin branchname = to delete branch in origin
+53) git push origin branchname = to push new branch in origin
